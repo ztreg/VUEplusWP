@@ -1,0 +1,582 @@
+{
+    "NavBar": {
+        "Desktop": {
+            "Logo": {
+                "Img1": {
+                    "src": "https://static.wixstatic.com/media/2e1006_c6dfad3be75c486f8fddb92df6e29705~mv2_d_3000_2000_s_2.png/v1/crop/x_0,y_0,w_3000,h_1450/fill/w_109,h_52,al_c,q_85,usm_0.66_1.00_0.01/logo%20white.webp",
+                    "alt": "Bild på We bot loggan"
+                },
+                "Img2": {
+                    "src": "https://static.wixstatic.com/media/2e1006_c6dfad3be75c486f8fddb92df6e29705~mv2_d_3000_2000_s_2.png/v1/crop/x_0,y_1389,w_3000,h_611/fill/w_154,h_31,al_c,q_85,usm_0.66_1.00_0.01/logo%20white.webp",
+                    "alt": "Bild på We bot loggan"
+                }
+            },
+            "Dropdown1": {
+                "label": "Varför We Bot?",
+                "labelPath":"/why",
+                "menuItems": [
+                    {
+                      "title": "Kunder",
+                      "path": "/why/customers",
+                      "hide": "true"
+                    },
+                    {
+                      "title": "Hur det fungerar",
+                      "path": "/why/how-it-works"
+                    }
+                ]
+            },
+            "Dropdown2": {
+                "label": "Produkter",
+                "labelPath":"/product",
+                "menuItems": [
+                  {
+                    "title": "Telekom",
+                    "path": "/product/telecom"
+                  },
+                  {
+                    "title": "Finans",
+                    "path": "/product/finance"
+                  },
+                  {
+                    "title": "Övrigt",
+                    "path": "/product/other"
+                  }
+                ]
+            },
+            "Dropdown3": {
+                "label": "Om oss",
+                "labelPath":"/about",
+                "menuItems": [
+                    {
+                      "title": "Om We Bot",
+                      "path": "/about/company"
+                    },
+                    {
+                      "title": "Medarbetare",
+                      "path": "/about/staff"
+                    },
+                    {
+                      "title": "Kontakta oss",
+                      "path": "/about/contact"
+                    }
+                ]
+            },
+            "Button": {
+                "label": "Blogg",
+                "labelPath":"/blog"
+            }
+        },
+        "Mobile": {
+            "Logo": {
+                "Img": {
+                    "src": "https://static.wixstatic.com/media/2e1006_080bd9def9b14c47ac96c68558724f6d~mv2.png/v1/fill/w_459,h_116,al_c,q_85/Logga%20191015-bred.webp",
+                    "alt": "Bild på We bot loggan"
+                }
+            },
+            "MenuList": [
+                {
+                  "label": "Varför We Bot?",
+                  "labelPath": "/why",
+                  "separator": true,
+                  "name": "Why",
+                  "ChildMenus": [
+                    {
+                      "label": "Varför We Bot?",
+                      "separator": true,
+                      "name": "/why"
+                    },
+                    {
+                      "label": "Kunder",
+                      "separator": true,
+                      "name": "/why/customers",
+                      "hide": true
+                    },
+                    {
+                      "label": "Hur det fungerar",
+                      "separator": true,
+                      "name": "/why/how-it-works"
+                    }
+                  ]
+                },
+                {
+                  "label": "Produkt",
+                  "separator": true,
+                  "name": "Product",
+                  "ChildMenus": [
+                    {
+                      "label": "Produkt",
+                      "separator": true,
+                      "name": "/product"
+                    },
+                    {
+                      "label": "Telekom",
+                      "separator": true,
+                      "name": "/product/telecom"
+                    },
+                    {
+                      "label": "Finans",
+                      "separator": true,
+                      "name": "/product/finance"
+                    },
+                    {
+                      "label": "Övrigt",
+                      "separator": true,
+                      "name": "/product/other"
+                    }
+                  ]
+                },
+                {
+                  "iconColor": "primary",
+                  "label": "Om oss",
+                  "separator": true,
+                  "name": "About",
+                  "ChildMenus": [
+                    {
+                      "label": "Om oss",
+                      "separator": true,
+                      "name": "/about"
+                    },
+                    {
+                      "label": "Om We Bot",
+                      "separator": true,
+                      "name": "/about/company"
+                    },
+                    {
+                      "label": "Medarbetare",
+                      "separator": true,
+                      "name": "/about/staff"
+                    },
+                    {
+                      "label": "Kontakta oss",
+                      "separator": true,
+                      "name": "/about/contact"
+                    }
+                  ]
+                },
+                {
+                  "label": "Blogg",
+                  "labelPath": "/blog",
+                  "name": "Blog",
+                  "separator": true
+                }
+            ]
+        }
+    },
+    "Footer": {
+        "FooterArea" : {
+            "FooterCol1" : {
+                "Img" : {
+                    "src" : "https://static.wixstatic.com/media/2e1006_c6dfad3be75c486f8fddb92df6e29705~mv2_d_3000_2000_s_2.png/v1/fill/w_384,h_256,al_c,q_85,usm_0.66_1.00_0.01/logo%20white.webp",
+                    "alt" : "Bild på We bot loggan"
+                }
+            },
+            "FooterCol2" : { 
+                "footerAdress1" : "Medborgarplatsen 3",
+                "footerZipNCity1" :"118 26 Stockholm, Sverige",
+                "footerEmail" : "hello@webot.se",
+                "footerNumber" : "+46 (0)70 413 47 44",
+                "footerAdress2" : "Lilla Fiskaregatan 1A",
+                "footerZipNCity2" : "222 22 Lund, Sverige"
+            },
+            "FooterCol3" : {
+                "footerIcon1" : "fab fa-linkedin",
+                "footerIcon2" : "fas fa-phone",
+                "footerIcon3" : "mail",
+                "footerBtnMsg" : "Kom igång!",
+                "footerPp" : "Integritetspolicy"
+            }
+        }
+    },
+    "Pages": {
+        "IndexPage": {
+            "Hero": {
+                "title": "We Bot",
+                "text": "Öka kundinteraktionen genom nya kanaler med hjälp av helautomatiska chattbottar",
+                "emailForm": true,
+                "BgImg": {
+                    "src": "statics/WaveHero1.png",
+                    "alt": "Bakgrundsbild för sidans hero"
+                },
+                "HeroGif": {
+                    "src": "statics/clips/Afford.mp4",
+                    "alt": "Gif av chattbott"
+                },
+                "GifFrame": {
+                    "src": "statics/clips/around.png",
+                    "alt": "Mobilram till gif"
+                }
+            },
+            "PlatformAgnostic": {
+                "title": "PLATTFORMS AGNOSTIK",
+                "text": "Vi har möjlighet att integrera mot flera plattformar både text och tal. Ha en sömlös integration mot din webbplats, sociala medieplattformar och app!",
+                "Img": {
+                    "src": "https://i.gyazo.com/2959753449eb1d36b14316bec6ed002e.png",
+                    "alt": "bild på ikoner"
+                }
+            },
+            "ForwardSection" : {
+              "title" : "Ett enkelt sätt att kommunicera, för dig och dina kunder",
+              "card1Subject" : "Varför",
+              "card1BtnText" : "Se Varför",
+              "card1Desc" : "Varför ska du använda We Bot och varför använda chatbottar? Se här.",
+              "card2Subject" : "Produkter",
+              "card2BtnText" : "Se Produkter",
+              "card2Desc" : "Vad för typer av produkter offrar vi? Hur kan dem hjälpa dig? Se här."
+            },
+            "TripleCard": [
+                {
+                  "CardHeadline": "UTSKICK",
+                  "CardText": "Skicka meddelanden till dina användare. Oavsett om det berättar för dem om dina nya funktioner eller bara checka in för att säga hej!",
+                  "CardIcon": "notification_important",
+                  "CardBgColor": "bg-grey-8",
+                  "CardTextColor": "white"
+                },
+                {
+                  "CardHeadline": "24/7",
+                  "CardText": "Betjäna din kund varje dag varje timme. Oavsett om din personal är på semester eller sover.",
+                  "CardIcon": "access_time",
+                  "CardBgColor": "",
+                  "CardTextColor": ""
+                },
+                {
+                  "CardHeadline": "ANPASSNINGSBAR",
+                  "CardText": "Designa chattresan på det sätt du vill. Ingen aning? Oroa dig inte, vi hjälper dig.",
+                  "CardIcon": "chat",
+                  "CardBgColor": "bg-grey-8",
+                  "CardTextColor": "white"
+                }
+            ],
+            "References": {
+                "show" : false,
+                "title": "Referenser",
+                "refArr": [
+                    { 
+                      "link": "verified_user"
+                    },
+                    { 
+                      "link": "chat"
+                    },
+                    { 
+                      "link": "android"
+                    },
+                    {
+                      "link": "face"
+                    },
+                    { 
+                      "link": "toll"
+                    },
+                    { 
+                      "link": "verified_user"
+                    },
+                    { 
+                      "link": "chat"
+                    }
+                ]
+            }
+        },
+        "ProductPage": {
+            "Hero": {
+                "title": "Produkt",
+                "text": "Text på svenska",
+                "BgImg": {
+                    "src": "statics/WaveHero3.png",
+                    "alt": "Bakgrundsbild för sidans hero"
+                }
+            },
+            "Sections": [
+              {
+                "scrollId": "telecom",
+                "ProductCards": [
+                  {
+                    "title": "Telecom Example 1",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis pulvinar neque, a gravida nibh ornare blandit. Pellentesque dictum elementum lacus vel tincidunt. Morbi aliquam finibus vestibulum",
+                    "scrollId": "telecom1",
+                    "Img": {
+                        "src": "statics/clips/HelpDesk.mp4",
+                        "alt": "Gif of help desk bot"
+                    },
+                    "ImgFrame": false
+                  },
+                  {
+                    "title": "Telecom Example 2",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis pulvinar neque, a gravida nibh ornare blandit. Pellentesque dictum elementum lacus vel tincidunt. Morbi aliquam finibus vestibulum",
+                    "scrollId": "telecom2",
+                    "Img": {
+                        "src": "statics/clips/HelpDesk.mp4",
+                        "alt": "Gif of help desk bot"
+                    },
+                    "ImgFrame": false
+                  },
+                  {
+                    "title": "Telecom Example 3",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis pulvinar neque, a gravida nibh ornare blandit. Pellentesque dictum elementum lacus vel tincidunt. Morbi aliquam finibus vestibulum",
+                    "scrollId": "telecom3",
+                    "Img": {
+                        "src": "statics/clips/HelpDesk.mp4",
+                        "alt": "Gif of help desk bot"
+                    },
+                    "ImgFrame": false
+                  }
+                ]
+              },
+              {
+                "scrollId": "finance",
+                "ProductCards": [
+                  {
+                    "title": "Finance Example 1",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis pulvinar neque, a gravida nibh ornare blandit. Pellentesque dictum elementum lacus vel tincidunt. Morbi aliquam finibus vestibulum",
+                    "scrollId": "finance1",
+                    "Img": {
+                        "src": "statics/clips/HelpDesk.mp4",
+                        "alt": "Gif of help desk bot"
+                    },
+                    "ImgFrame": false
+                  },
+                  {
+                    "title": "Finance Example 2",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis pulvinar neque, a gravida nibh ornare blandit. Pellentesque dictum elementum lacus vel tincidunt. Morbi aliquam finibus vestibulum",
+                    "scrollId": "finance2",
+                    "Img": {
+                        "src": "statics/clips/HelpDesk.mp4",
+                        "alt": "Gif of help desk bot"
+                    },
+                    "ImgFrame": false
+                  },
+                  {
+                    "title": "Finance Example 3",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis pulvinar neque, a gravida nibh ornare blandit. Pellentesque dictum elementum lacus vel tincidunt. Morbi aliquam finibus vestibulum",
+                    "scrollId": "finance3",
+                    "Img": {
+                        "src": "statics/clips/HelpDesk.mp4",
+                        "alt": "Gif of help desk bot"
+                    },
+                    "ImgFrame": false
+                  }
+                ]
+              },
+              {
+                "scrollId": "other",
+                "ProductCards": [
+                  {
+                    "title": "KUNDTJÄNST",
+                    "text": "Hjäp  kunder direkt på ett personligt sätt med den automatiska kundtjänstchattbotten. Integrera till alla system för att ge kunden specifika svar. ",
+                    "scrollId": "help-desk",
+                    "Img": {
+                        "src": "statics/clips/HelpDesk.mp4",
+                        "alt": "Gif av kundtjänstbot"
+                    },
+                    "ImgFrame": false
+                  },
+                  {
+                    "title": "ÄRENDEN",
+                    "text": "Använd ärendeformulär för att samla in mer komplexa frågor från kunderna. Anslut det enkelt till ditt Ticketing-system, CRM eller e-post.",
+                    "scrollId": "ticketing",
+                    "Img": {
+                        "src": "statics/clips/Ticketing.mp4",
+                        "alt": "Gif av biljettbot"
+                    },
+                    "ImgFrame": false
+                  },
+                  {
+                    "title": "FAQ & ARTIKLAR",
+                    "text": "Vanliga frågor som som kan beskrivas med text och bilder.",
+                    "scrollId": "faq",
+                    "Img": {
+                        "src": "statics/clips/FAQ.mp4",
+                        "alt": "Gif av FAQ bot"
+                    },
+                    "ImgFrame": false
+                  },
+                  {
+                    "title": "HR-SPECIALISTEN",
+                    "text": "Låt en automatiserad chatbot ta itu med dina vanligaste frågor från de anställda. HR-specialisten kan svara på frågor om löner, pension, semester och mycket mer. Du kan till och med låta den hantera rapportering av frånvaro.",
+                    "scrollId": "hr",
+                    "Img": {
+                        "src": "statics/clips/HR.mp4",
+                        "alt": "Gif av en HR bot"
+                    },
+                    "ImgFrame": false
+                  },
+                  {
+                    "title": "LEADS",
+                    "text": "Hitta kunder genom att rekommendera produkter eller tjänster. Leadgeneratorn hjälper dig att samla in kundens preferenser, och rekommendera produkter. Leadgenerering via chattbots har visat sig ha upp till 14 gånger klickfrekvensen jämfört med e-postmeddelanden.",
+                    "scrollId": "lead",
+                    "Img": {
+                        "src": "statics/clips/Lead-short.mp4",
+                        "alt": "Gif av en lead bot"
+                    },
+                    "ImgFrame": true
+                  },
+                  {
+                    "title": "TECH-REKRYTERAREN",
+                    "text": "Denna chatwidget ligger på din hemsida och om en person har vissa program installerade på sin dator så kommer chatt att öppnas. Detta är ett roligt och innovativt sätt att locka till sig en viss typ av kompetens.",
+                    "scrollId": "recruitment",
+                    "Img": {
+                        "src": "statics/clips/TechRecruit.mp4",
+                        "alt": "Gif för en rekryterings bot"
+                    },
+                    "ImgFrame": false
+                  }
+                ]
+              }
+
+            ],
+            "Customised": {
+                "Intro": {
+                    "title": "ANPASSNINGSBARHET",
+                    "text": "Att göra din chatbot så varumärkesspecifik som möjligt eller ännu mer innovativ är en anpassad lösning vägen att gå. Det kan vara en komplett ny chatbot-lösning byggd från grunden eller anpassa en standardlösning med extra funktionalitet, nya systemanslutningar och distribution på flera plattformar.",
+                    "scrollId": "customised"
+                },
+                "Custom1": {
+                    "title": "ANPASSNINGSBARA FUNKTIONER",
+                    "text": "Vi utvecklar önskade funktioner som passar dina affärsbehov och ger värde för kunden. ",
+                    "Img": {
+                        "src": "statics/clips/budget.mp4",
+                        "alt": "Gif för en budget bot"
+                    },
+                    "ImgFrame": {
+                        "src": "statics/clips/around.png",
+                        "alt": "Mobil ram för gif"
+                    }
+                },
+                "Custom2": {
+                    "title": "SYSTEMANSLUTNINGAR",
+                    "text": "Anslut chatboten till ett valfritt system för att aktivera kundspecifika svar. Du kan också integrera andra tjänster i chatbot som peer-to-peer-betalningar.",
+                    "Img": {
+                        "src": "statics/clips/Splitpot.mp4",
+                        "alt": "Gif för en anpassningsbar bot"
+                    },
+                    "ImgFrame": {
+                        "src": "statics/clips/around.png",
+                        "alt": "Mobil ram för gif"
+                    }
+                },
+                "Custom3": {
+                    "title": "FLERA PLATTFORMAR",
+                    "text": "Du behöver inte bara erbjuda tjänsten på en plattform, t.ex. din webbplats. Med We Bot kan du göra det i din app eller på dina sociala mediesider.",
+                    "Img": {
+                        "src": "statics/clips/Afford.mp4",
+                        "alt": "Gif för en anpassningsbar bot"
+                    },
+                    "ImgFrame": {
+                        "src": "statics/clips/around.png",
+                        "alt": "Mobil ram för gif"
+                    }
+                }
+            }
+        },
+        "AboutPage": {
+            "Hero": {
+                "title": "Om oss",
+                "text": "We Bot utvecklar helautomatiska chatbots för banker och andra branscher för att stärka kundrelationen och ta bort mänsklig interaktion.",
+                "BgImg": {
+                    "src": "statics/WaveHero4.png",
+                    "alt": "Bakgrundsbild på sidans hero"
+                }
+            },
+            "Company": {
+                "scrollId": "company",
+                "title": "Om oss",
+                "text": "We Bot utvecklar helautomatiska chatbotar för banker och andra branscher för att stärka kundrelationen och ta bort mänsklig interaktion. Med användning av artificiell intelligens och språkigenkänning kan produkten automatiseras helt för att ersätta kundsupport eller initiera försäljning i en ny kanal. Se vår demo av en personlig ekonomiassistent i Facebook messenger som hjälper konsumenten med budgetering, betalningar och sparande.",
+                "Img": {
+                    "src": "https://static.wixstatic.com/media/2e1006_080bd9def9b14c47ac96c68558724f6d~mv2.png/v1/fill/w_459,h_116,al_c,q_85/Logga%20191015-bred.webp",
+                    "alt": "En bild på We Bots Logga"
+                }
+            },
+            "Staff": {
+                "scrollId": "staff",
+                "title": "Vi på We Bot",
+                "text": "Vi på We Bot utvecklar helautomatiska chatbots för banker och andra branscher för att stärka kundrelationen och ta bort mänsklig interaktion. Med användning av artificiell intelligens och särskilt naturligt språkbearbetning kan produkten automatiseras helt för att ersätta kundsupport eller initiera försäljning i en ny kanal. Se vår demo av en personlig ekonomichef i Facebook messenger som hjälper konsumenten med budgetering, betalningar och besparingar.",
+                "Img": {
+                    "src": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+                    "alt": "En bild på folk som arbetar på We Bot"
+                }
+            },
+            "StaffMembers" : [
+                {
+                  "StaffName": "Filip Eriksson",
+                  "StaffPhonenumber": "070-559-1243",
+                  "StaffEmail": "Filip.eriksson@webot.se",
+                  "StaffTitle": "Medgrundare",
+                  "StaffPortrait": "statics/staff/BildFilip2.png"
+                },
+                {
+                  "StaffName": "Mattias Hamberg",
+                  "StaffPhonenumber": "070-559-1243",
+                  "StaffEmail": "Mattias.Hamberg@webot.se",
+                  "StaffTitle": "Medgrundare",
+                  "StaffPortrait": "statics/staff/BildMattias.png"
+                }, 
+                {
+                  "StaffName": "Robert Stare",
+                  "StaffPhonenumber": "070-559-1243",
+                  "StaffEmail": "Robert.stare@webot.se",
+                  "StaffTitle": "Ledande WebbUtvecklare",
+                  "StaffPortrait": "statics/staff/BildRobert3.png"
+                }
+              ],
+            "Contact" : {
+                "scrollId" : "contact",
+                "title" : "Kontakta oss"
+            }
+        },
+        "WhyPage" : {
+            "Hero": {
+                "title": "Varför We Bot?",
+                "text": "Varför välja We Bot?",
+                "BgImg": {
+                    "src": "statics/WaveHero2.png",
+                    "alt": "Bakgrundsbild för sidans hero"
+                }
+            },
+            "Customers" : {
+                "scrollId" : "customers",
+                "show" : false
+            },
+            "Why" : {
+                "scrollId" : "how-it-works",
+                "WhyCards" : [
+                    {
+                        "whyBgClass" : "lightbg",
+                        "whyImage" : "statics/svg/img1.svg",
+                        "whyTitle" : "BESLUT BASERADE PÅ ANVÄNDARDATA",
+                        "whyDescription" : "Med användning av Natural Language Processing (NLP) och Machine Learning konfigurerar vi en helautomatiskt chatbot baserat på användardata."
+                    },
+                    {
+                        "whyBgClass" : "darkbg",
+                        "whyImage" : "statics/svg/img3.svg",
+                        "whyTitle" : "PLATFORMSAGONSTIK",
+                        "whyDescription" : "Vi har möjligheten att integrera mot flera plattformar både text och tal. Med We Bot får du en sömlös integration mot din webbplats, sociala medieplattformar  så som facebook messenger , whatsapp etc."
+                    },
+                    {
+                        "whyBgClass" : "lightbg",
+                        "whyImage" : "statics/svg/img2.svg",
+                        "whyTitle" : "INTERGRERA BEFINTLIGA SYSTEM",
+                        "whyDescription" : "Beroende på vilken data du vill hämta eller addera i ditt befintliga system så göra vi detta med standardiserade API:er."
+                    },
+                    {
+                        "whyBgClass" : "darkbg",
+                        "whyImage" : "statics/svg/img4.svg",
+                        "whyTitle" : "BESLUTA RESAN",
+                        "whyDescription" : "Det är upp till dig att bestämma hur du vill att användningsfallen och kundresan ska vara. Hur som helst, vi hjälper dig med konfigurationerna för att göra din upplevelse så smidig som möjligt."
+                    }
+                ]
+            }
+        }
+    },
+    "Utilities" : {
+      "Emailform" : {
+        "Emailtext" : "Skriv din email",
+        "EmailButton" : "Kom igång"
+      },
+      "Contactform" : {
+        "Name" : "Vänligen skriv in ditt namn",
+        "Email" : "Vänligen skriv in din email",
+        "Phonenumber" : "Ditt telefonnummer",
+        "Message" : "Har du något specifikt du undrar?",
+        "Submit" : "Skicka",
+        "Reset" : "Rensa"
+      }
+    }
+}
