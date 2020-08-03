@@ -1,8 +1,8 @@
 .DS_Store
 .thumbs.db
 node_modules
-src\srcLIA
-
+srcLIA/
+src/srcLIA/*
 # Quasar core related directories
 .quasar
 /dist

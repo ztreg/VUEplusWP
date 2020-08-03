@@ -60,11 +60,11 @@
   </div>
   <!-- Content 3 -->
   <div class="text-part q-pa-md">
-    <div class="text-h4 glossy">Artiklar</div>
-    <div class="articles q-pa-sm" v-for="(CurrentItem, i) in dataPosts" :key="i" >
-      <div class="text-h4">{{CurrentItem.slug}}</div>
+    <div class="text-h4">Artiklar</div>
+    <div class="articles q-pa-sm" v-for="(CurrentItem, i) in wpPosts" :key="i" >
+      <div class="text-h4">{{CurrentItem.title.rendered}}</div>
         {{CurrentItem.content.rendered}}
-      <img :src=CurrentItem.ImgUrl >
+      <img :src=CurrentItem.ImgUrl class="artImg">
       <div class="text-subtitle2"> Publicerad: {{CurrentItem.date}}</div>
     </div>
     <div class="q-pa-sm">
@@ -85,27 +85,38 @@ export default {
   data () {
     return {
       slide: 'style',
-      dataPosts: []
+      wpPosts: []
     }
   },
   async mounted () {
     await fetch('http://reso.local/index.php/wp-json/wp/v2/posts')
       .then(response => response.json())
-      .then(result => this.checkData(result))
+      .then(result => this.filterData(result))
+      .catch((error) => {
+        console.error('There was a error fetching:', error)
+      })
   },
   methods: {
-    async checkData (data) {
+    async filterData (data) {
       for (let i = 0; i < data.length; i++) {
-        if (data[i].content.rendered.search('<img') === true) {
-          const url = await fetch('http://reso.local/wp-json/wp/v2/media?parent=' + data[i].content.rendered.id).then(response => response.json())
-          data[i].ImgUrl = url
-        }
-        else {
-          data[i].content.rendered = data[i].content.rendered.replace('<p>', '')
-          data[i].content.rendered = data[i].content.rendered.replace('</p>', '')
+        /**
+         * If the post has images on it, else just replace tags
+         */
+        if (data[i].content.rendered.match('<img src')) {
+          await fetch('http://reso.local/wp-json/wp/v2/media?parent=' + data[i].id)
+            .then(response => response.json())
+            .then((response) => {
+              data[i].ImgUrl = response[0].source_url
+            })
+            .catch((error) => {
+              console.error('Image fetch error:', error)
+            })
+          data[i].content.rendered = data[i].content.rendered.replace(/(<([^>]+)>)/gi, '')
+        } else {
+          data[i].content.rendered = data[i].content.rendered.replace(/(<([^>]+)>)/gi, '')
         }
       }
-      this.dataPosts = data
+      this.wpPosts = data
     }
   }
 }
@@ -146,5 +157,10 @@ export default {
 
 .btns {
   margin: 10px
+}
+
+.artImg {
+  max-width: 300px;
+  max-height: 300px;
 }
 </style>
