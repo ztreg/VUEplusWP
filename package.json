@@ -1,8 +1,8 @@
 {
-  "name": "jonquasardev",
+  "name": "vueandwordpress",
   "version": "0.0.1",
-  "description": "stuff",
-  "productName": "jonquasardev",
+  "description": "vueandwordpress",
+  "productName": "vueandwordpress",
   "author": "Jonas Gertz <geertzo@live.se>",
   "private": true,
   "scripts": {
