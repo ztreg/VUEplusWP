@@ -1,6 +1,6 @@
 # vueandwordpress (vueandwordpress)
 
-Website using vue and wordpress api
+Website using vue and wordpress(local) api to print out content
 
 ## Install the dependencies
 ```bash
