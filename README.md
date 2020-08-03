@@ -1,4 +1,4 @@
-# jonquasardev (jonquasardev)
+# vueandwordpress (vueandwordpress)
 
 Website using vue and wordpress api
 
