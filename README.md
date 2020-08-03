@@ -1,6 +1,6 @@
 # jonquasardev (jonquasardev)
 
-stuff
+Website using vue and wordpress api
 
 ## Install the dependencies
 ```bash
